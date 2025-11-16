@@ -1,0 +1,2 @@
+mvn clean package -q && cp target/Libman-1.0-SNAPSHOT.war /home/anonymous/apache-tomcat-10.1.44/webapps/Libman.war
+curl -s http://localhost:8080/Libman/Login.jsp
